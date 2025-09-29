@@ -3,7 +3,7 @@ from discord.ext import commands
 
 intents = discord.Intents.default()
 intents.members = True
-bot = commands.Bot(command_prefix="!", intents=intents)
+bot = commands.Bot(command_prefix="/", intents=intents)
 
 SUPPORT_ROLE_ID = 1417532337226383401  # Your support role ID
 
